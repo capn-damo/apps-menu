@@ -1,0 +1,5 @@
+Run command:
+
+	jgmenu --simple --config-file=.config/jgmenu/appsrc --csv-file=.config/jgmenu/apps.csv
+
+

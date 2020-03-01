@@ -1,0 +1,44 @@
+@rect,,154,4,292,36,2,left,top,#000000 0,#656565 50,
+@search,,159,4,240,36,2,left,top,#eeeeee 80,#000000 0,
+@icon,,416,12,22,22,2,left,top,#000000 50,#000000 50,/home/damo/.config/jgmenu/greeneye-search.svg
+@rect,,154,44,292,462,2,left,top,#000000 0,#282828 90,
+
+@text,,10,4,142,35,2,left,top,#e6e6e6 100,#000000 0,<span color="grey">Filters</span>
+
+@rect,^filter(*),4,40,142,35,2,left,top,#ffffff 50,#000000 0,
+@icon,,10,40,32,32,2,left,top,#000000 50,#000000 50,/usr/share/icons/Paper/512x512/places/folder_home.png
+@text,,50,40,142,35,2,left,top,#e6e6e6 100,#000000 0,All
+
+@rect,^filter(#Accessories #Util #Archiving #Compression #TextEditor ),4,90,142,35,2,left,top,#000000 0,#000000 0,
+@icon,,10,90,32,32,2,left,top,#000000 50,#000000 50,/usr/share/icons/Paper/512x512/categories/applications-accessories.png
+@text,,50,90,142,35,2,left,top,#e6e6e6 100,#000000 0,Accessories
+
+@rect,^filter(#Development #Build #Debug #IDE #Profiling #RevisionControl ),4,140,142,35,2,left,top,#000000 0,#000000 0,
+@icon,,10,140,32,32,2,left,top,#000000 50,#000000 50,/usr/share/icons/Paper/512x512/categories/applications-development.png
+@text,,50,140,142,35,2,left,top,#e6e6e6 100,#000000 0,Development
+
+@rect,^filter(#Graphics #Scanning #Photography ),4,190,142,35,2,left,top,#000000 0,#000000 0,
+@icon,,10,190,32,32,2,left,top,#000000 50,#000000 50,/usr/share/icons/Paper/512x512/categories/applications-graphics.png
+@text,,50,190,142,35,2,left,top,#e6e6e6 100,#000000 0,Graphics
+
+@rect,^filter(#Internet #Network #Email #FileTransfer #WebBrowser ),4,240,142,35,2,left,top,#000000 0,#000000 0,
+@icon,,10,240,32,32,2,left,top,#000000 50,#000000 50,/usr/share/icons/Paper/512x512/categories/applications-internet.png
+@text,,50,240,142,35,2,left,top,#e6e6e6 100,#000000 0,Internet
+
+@rect,^filter(#Multimedia #Player #Audio #Video #Recorder ),4,290,142,35,2,left,top,#000000 0,#000000 0,
+@icon,,10,290,32,32,2,left,top,#000000 50,#000000 50,/usr/share/icons/Paper/512x512/categories/applications-multimedia.png
+@text,,50,290,142,35,2,left,top,#e6e6e6 100,#000000 0,Multimedia
+
+@rect,^filter(#Office #Calendar #Contact #Dictionary #Chart #Finance #Presentation #Spreadsheet #WordProcessor #Publishing #Viewer ),4,340,142,35,2,left,top,#000000 0,#000000 0,
+@icon,,10,340,32,32,2,left,top,#000000 50,#000000 50,/usr/share/icons/Paper/512x512/categories/applications-office.png
+@text,,50,340,142,35,2,left,top,#e6e6e6 100,#000000 0,Office
+
+@rect,^filter(#Settings #Security #Preferences ),4,390,142,35,2,left,top,#000000 0,#000000 0,
+@icon,,10,390,32,32,2,left,top,#000000 50,#000000 50,/usr/share/icons/Paper/512x512/categories/applications-utilities.png
+@text,,50,390,142,35,2,left,top,#e6e6e6 100,#000000 0,Settings
+
+@rect,^filter(#System #Emulator #FileManager #TerminalEmulator #Filesystem #Monitor ),4,440,142,35,2,left,top,#000000 0,#000000 0,
+@icon,,10,440,32,32,2,left,top,#000000 50,#000000 50,/usr/share/icons/Paper/512x512/categories/applications-system.png
+@text,,50,440,142,35,2,left,top,#e6e6e6 100,#000000 0,System
+
+. ~/.config/jgmenu/apps-menu.csv
